@@ -1,0 +1,57 @@
+{
+  "frameWidth": 260,
+  "frameHeight": 270,
+  "bodyRefHeight": 243,
+  "bodyCenter": {
+    "x": 130,
+    "y": 140.5
+  },
+  "footBaseline": 253,
+  "walkExtents": {
+    "left": 83,
+    "right": 83,
+    "top": 123,
+    "bottom": 123
+  },
+  "walking": "assets/poses/walk_r{row}c{col}.png",
+  "reactions": {
+    "1": "assets/poses/react_1.png",
+    "2": "assets/poses/react_2.png",
+    "3": "assets/poses/react_3.png"
+  },
+  "directions": {
+    "E": {
+      "row": 3,
+      "mirror": false
+    },
+    "SE": {
+      "row": 2,
+      "mirror": false
+    },
+    "S": {
+      "row": 1,
+      "mirror": false
+    },
+    "SW": {
+      "row": 2,
+      "mirror": true
+    },
+    "W": {
+      "row": 3,
+      "mirror": true
+    },
+    "NW": {
+      "row": 5,
+      "mirror": true
+    },
+    "N": {
+      "row": 4,
+      "mirror": false
+    },
+    "NE": {
+      "row": 5,
+      "mirror": false
+    }
+  },
+  "note": "Walking poses come from uploaded sheet with hair intact; reaction poses from reaction source."
+}

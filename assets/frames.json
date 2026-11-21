@@ -1,0 +1,57 @@
+{
+  "frameWidth": 182,
+  "frameHeight": 268,
+  "columns": 4,
+  "rows": 8,
+  "frameCount": 32,
+  "original": "assets/monkey_source.png (unaltered)",
+  "atlas": "assets/monkey_atlas.png",
+  "frames": "assets/frames/r{row}c{col}.png",
+  "alignment": "centered horizontally, feet on common baseline",
+  "alphaCleanup": "alpha below 6 removed, hair fully preserved from original",
+  "sourceRows": {
+    "1": "front (down)",
+    "2": "front-right",
+    "3": "right",
+    "4": "back (up)",
+    "5": "back (up)",
+    "6": "left",
+    "7": "front-left",
+    "8": "front-left (alternate)"
+  },
+  "directionMap": {
+    "E": {
+      "row": 3,
+      "mirror": false
+    },
+    "SE": {
+      "row": 2,
+      "mirror": false
+    },
+    "S": {
+      "row": 1,
+      "mirror": false
+    },
+    "SW": {
+      "row": 2,
+      "mirror": true
+    },
+    "W": {
+      "row": 3,
+      "mirror": true
+    },
+    "NW": {
+      "row": 5,
+      "mirror": true
+    },
+    "N": {
+      "row": 4,
+      "mirror": false
+    },
+    "NE": {
+      "row": 5,
+      "mirror": false
+    }
+  },
+  "note": "All hair and fur details preserved directly from monkey_source.png."
+}
